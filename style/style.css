@@ -1,0 +1,134 @@
+.navbar {
+    padding: 1rem;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg-video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF; /* Warna teks putih agar lebih kontras */
+    z-index: 1;
+    padding: 2rem;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); /* Latar belakang dengan gradasi */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0); /* Bayangan */
+    animation: fadeIn 2s ease-in-out; /* Animasi fade-in */
+}
+
+
+.content .btn {
+    padding: 0.50rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+
+
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+    background-color: #350202;
+    z-index: 1;
+}
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-content-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.main-content-text p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.header-text {
+    position: relative;
+    text-align: center;
+    padding: 50px 0; /* Sesuaikan dengan kebutuhan jarak atas dan bawah */
+}
+
+.header-text .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    margin-bottom: 30px; /* Sesuaikan dengan kebutuhan jarak antar kartu */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
+.footer-logo img {
+    width: 150px;
+    height: 120px;
+    border-radius: 10%;
+}
+.footer-nav a, .footer-contact a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.social-icons a {
+    margin: 0 5px;
+}
